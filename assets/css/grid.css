@@ -1,0 +1,107 @@
+
+/*
+===============================================================================
+Grid layout
+===============================================================================
+*/
+
+/* Row */
+._row_g {
+	display: grid;
+}
+
+/* Column 1 */
+._col_1 {
+	grid-template-columns: repeat(1, 1fr);
+}
+
+/* Column 2 */
+._col_2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+/* Column 3 */
+._col_3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* Column 4 */
+._col_4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+/* Column 5 */
+._col_5 {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+/* Column 6 */
+._col_6 {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+/* Column 7 */
+._col_7 {
+	grid-template-columns: repeat(7, 1fr);
+}
+
+/* Column 8 */
+._col_8 {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+/* Column 9 */
+._col_9 {
+	grid-template-columns: repeat(9, 1fr);
+}
+
+/* Column 3 */
+._col_10 {
+	grid-template-columns: repeat(10, 1fr);
+}
+
+/* Column 11 */
+._col_11 {
+	grid-template-columns: repeat(11, 1fr);
+}
+
+/* Column 11 */
+._col_12 {
+	grid-template-columns: repeat(12, 1fr);
+}
+
+@media (max-width: 1000px) {
+
+	/* Columns */
+	._col_2,
+	._col_3,
+	._col_4,
+	._col_5,
+	._col_6,
+	._col_7,
+	._col_8,
+	._col_9,
+	._col_10,
+	._col_11,
+	._col_12 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 800px) {
+
+	/* Columns */
+	._col_2,
+	._col_3,
+	._col_4,
+	._col_5,
+	._col_6,
+	._col_7,
+	._col_8,
+	._col_9,
+	._col_10,
+	._col_11,
+	._col_12 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
